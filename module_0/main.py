@@ -2,6 +2,13 @@ import numpy as np
 
 
 def game_core(number):
+    """Guess a number with binary search
+
+    Keyword arguments:
+    number -- number to guess
+
+    """
+    
     count = 0
     start = 0
     end = 101
@@ -18,16 +25,16 @@ def game_core(number):
     return count
 
 def score_game(game_core):
-    """Запускаем игру 1000 раз, чтоб узнать как быстро игра угадывает число"""
+    """Launch game 1000 time to know how fast it guesses a number"""
     count_ls = []
-    np.random.seed(1)  # фиксируем RANDOM SEED, чтобы ваш эксперимент был воспроизводим!
+    np.random.seed(1)
     random_array = np.random.randint(1, 101, size=(1000))
     for number in random_array:
         count_ls.append(game_core(number))
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за {score} попыток")
+    print(f"Your algorithm guesses the number on average in {score} attempts")
     return score
 
 
-# запускаем
+# Launch
 score_game(game_core)
