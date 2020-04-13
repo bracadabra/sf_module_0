@@ -1,6 +1,7 @@
-  _____  ______          _        _____       _______          _____  _____ _____ ______ _   _  _____ ______ 
- |  __ \|  ____|   /\   | |      |  __ \   /\|__   __|/\      / ____|/ ____|_   _|  ____| \ | |/ ____|  ____|
- | |__) | |__     /  \  | |      | |  | | /  \  | |  /  \    | (___ | |      | | | |__  |  \| | |    | |__   
- |  _  /|  __|   / /\ \ | |      | |  | |/ /\ \ | | / /\ \    \___ \| |      | | |  __| | . ` | |    |  __|  
- | | \ \| |____ / ____ \| |____  | |__| / ____ \| |/ ____ \   ____) | |____ _| |_| |____| |\  | |____| |____ 
- |_|  \_\______/_/    \_\______| |_____/_/    \_\_/_/    \_\ |_____/ \_____|_____|______|_| \_|\_____|______|
+# Solutions for SkillFactory Data Science course 
+
+## [module_0](https://github.com/bracadabra/skillfactory_rds/blob/master/module_0/Guess%20a%20number.ipynb) 
+Create repository for the course and implement Binary search algorithm in Python
+
+## [module_1](https://github.com/bracadabra/skillfactory_rds/blob/master/module_1/%5BSF-DST%5D%20Movies%20IMBD%20v3.0.ipynb) 
+Analyze movie database with Pandas
